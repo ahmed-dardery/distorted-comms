@@ -80,6 +80,7 @@ namespace DistortedComms
                     material.SetColor("_BodyColor", Color32.Lerp(DistortionBodyColor, Palette.PlayerColors[colorId], alpha));
                 }
 
+
                 foreach (var pl in PlayerControl.AllPlayerControls)
                 {
                     if (fadeOff)
@@ -102,7 +103,7 @@ namespace DistortedComms
                     };
                     spritesList.DoIf(v => v != null, v => v.color = Helpers.ChangeAlphaTo(v.color, alpha));
                 }
-                yield return null;
+                yield return new WaitForEndOfFrame();
                 if (t < AnimationDuration) t += Time.deltaTime;
             }
         }
