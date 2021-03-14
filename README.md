@@ -34,9 +34,12 @@ Of course, you can leave them as-is.
 
 **NOTE: the config parser doesn't implement any error detection, so be careful**
 
+## Bug Reports
+Due to circumstances, I haven't had the chance to thoroughly test this mod. If you encounter any issues you are more than welcome to post it in the Issues section!
+
 ## Special Thanks
 
-**Reactor**: Modding API that makes modding so much easier.
-**BepInEx**: The game patcher used to enable modding for the game.
-**Woodi-dev**, **NotHunter101**: inspiration to start modding Among Us, code-snippets to help understand the ins and outs.
-**Brybry16**: install instructions lifted directly from his mod.
+- **Reactor**: Modding API that makes modding so much easier.
+- **BepInEx**: The game patcher used to enable modding for the game.
+- **Woodi-dev**, **NotHunter101**: inspiration to start modding Among Us, code-snippets to help understand the ins and outs.
+- **Brybry16**: install instructions lifted directly from his mod.
