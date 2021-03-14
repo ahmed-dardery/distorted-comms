@@ -1,6 +1,8 @@
 # Distorted Comms
 A simple-to-use mod for Among Us that makes Comms Sabotage more powerful!
 
+![Demo](https://github.com/ahmed-dardery/distorted-comms/raw/main/demo/main.gif)
+
 ## How it works
 In game, when an impostor calls the Comms Sabotage, all players's unique distinctive features are removed and instead they all become similar to each other! This makes this (usually useless) sabotage much more powerful!
 
